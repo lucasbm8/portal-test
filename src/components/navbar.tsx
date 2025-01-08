@@ -26,12 +26,24 @@ const Navbar = () => {
             />
             <span> Homepage</span>
           </Link>
-          <Link href="/" className="flex gap-2">
-            <Image src="/friends.png" alt="Homepage" width={16} height={16} />
+          <Link href="/" className="flex items-center gap-2">
+            <Image
+              src="/friends.png"
+              alt="Homepage"
+              width={16}
+              height={16}
+              className="w-4 h-4"
+            />
             <span> Friends</span>
           </Link>
-          <Link href="/" className="flex gap-2">
-            <Image src="/stories.png" alt="Homepage" width={16} height={16} />
+          <Link href="/" className="flex items-center gap-2">
+            <Image
+              src="/stories.png"
+              alt="Homepage"
+              width={16}
+              height={16}
+              className="w-4 h-4"
+            />
             <span> Stories</span>
           </Link>
         </div>
