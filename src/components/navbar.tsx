@@ -12,12 +12,18 @@ const Navbar = () => {
         </Link>
       </div>
       {/*center*/}
-      <div className="hidden md:flex w-[50%]">
+      <div className="hidden md:flex w-[50%] text-sm">
         {/*links*/}
 
         <div className="flex gap-6 text-gray-600">
-          <Link href="/" className="flex gap-2">
-            <Image src="/home.png" alt="Homepage" width={16} height={16} />
+          <Link href="/" className="flex items-center gap-2">
+            <Image
+              src="/home.png"
+              alt="Homepage"
+              width={16}
+              height={16}
+              className="w-4 h-4"
+            />
             <span> Homepage</span>
           </Link>
           <Link href="/" className="flex gap-2">
@@ -31,8 +37,8 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className=" w-[30%]">
-        {/*right*/}
+      {/*right*/}
+      <div className=" w-[30%] flex items-center gap-4 xl:gap-8 justify-end">
         <MobileMenu />
       </div>
     </div>
