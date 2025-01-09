@@ -61,7 +61,7 @@ const Navbar = () => {
             placeholder="search..."
             className=" bg-transparent outline-none"
           ></input>
-          <Image src="/search.png" alt="" width={14} height={14}></Image>
+          <Image src="/search.png" alt="" width={24} height={24}></Image>
         </div>
       </div>
 
