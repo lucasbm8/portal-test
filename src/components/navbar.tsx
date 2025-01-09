@@ -82,7 +82,7 @@ const Navbar = () => {
           <SignedOut>
             <div className=" flex gap-2 cursor-pointer items-center text-sm">
               <Image src="/login.png" alt="" width={20} height={20}></Image>
-              <Link href="/">Login/Register</Link>
+              <Link href="/sign-in">Login/Register</Link>
             </div>
           </SignedOut>
         </ClerkLoaded>
